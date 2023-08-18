@@ -29,7 +29,6 @@ p {
 }
 
 .effective {
-  padding: 188px 472px 292px 472px;
   background: #2e2f42;
 }
 
@@ -51,7 +50,6 @@ h1,
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 24px 1240px 0 156px;
 }
 
 .web {
@@ -98,7 +96,6 @@ address {
 
 .thumb img {
   background: #f4f4fd;
-  margin-bottom: 24px;
 }
 
 .portfolio {
@@ -127,9 +124,7 @@ address {
   cursor: pointer;
 }
 
-.strategy {
-  padding: 120px 156px 120px 156px;
-}
+
 
 .contact-con {
   font-size: 16px;
