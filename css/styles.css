@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434555;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -101,7 +101,7 @@ address {
 }
 
 .portfolio {
-  background: #f4f4fd;
+  background-color: #FFFFFF;
 }
 
 .footer {
@@ -166,7 +166,7 @@ p, .strategy-text-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: #F4F4FD;
 }
 
 .web-n {
