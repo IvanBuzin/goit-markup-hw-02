@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434555;
   background-color: #ffffff;
 }
@@ -7,7 +7,7 @@ body {
 .head {
   color: rgba(255, 255, 255, 1);
   background: linear-gradient(0deg, #e7e9fc, #e7e9fc),
-  linear-gradient (0deg, #ffffff, #ffffff);
+    linear-gradient (0deg, #ffffff, #ffffff);
 }
 
 ul {
@@ -34,19 +34,21 @@ p {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 56px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
 
 .logo {
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.313;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
   padding: 24px 1240px 0 156px;
 }
@@ -98,7 +100,6 @@ address {
   margin-bottom: 24px;
 }
 
-
 .portfolio {
   background: #f4f4fd;
 }
@@ -107,15 +108,21 @@ address {
   background: #2e2f42;
 }
 
-.button-con:hover,
-.button-con:focus {
-  font-size: 16px;
+.button-con {
+  background-color: #4d5ae5;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: center;
   color: #ffffff;
-  background-color: #4d5ae5;
+  font-size: 16px;
+}
+
+.button-con:hover,
+.button-con:focus {
+  background-color: #404bbf;
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 .strategy {
@@ -134,23 +141,28 @@ address {
   color: #404bbf;
 }
 
-h2 {
+h2, .ourteam-clas-h, .portfolio-h {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   margin: 120px 0 0 0;
-  line-height: 1.5;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
-h3 {
+h3, .strategy-text-h {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
+  letter-spacing: 0.02em
   color: #2e2f42;
+  background-color: #FFFFFF
 }
 
-p {
+p, .strategy-text-p {
+  letter-spacing: 0.02em
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -165,4 +177,8 @@ p {
 
 .footer {
   padding: 0 0 0 156px;
+}
+
+.ourteam-clas {
+  background-color: #F4F4FD
 }
