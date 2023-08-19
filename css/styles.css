@@ -60,19 +60,8 @@ h1,
   color: rgba(46, 47, 66, 1);
 }
 
-.web:hover,
-.web:focus,
-.web-n:hover,
-.web-n:focus {
-  text-align: left;
-  background: #2e2f42;
-  color: #404bbf;
-  font-size: 40px;
-}
 
-.nav {
-  margin: 24px 832px 24px 348px;
-}
+
 .panel {
   font-size: 16px;
   font-weight: 500;
@@ -83,7 +72,6 @@ h1,
 .panel:hover,
 .panel:focus {
   color: #404bbf;
-  font-size: 40px;
 }
 
 address {
@@ -120,11 +108,11 @@ address {
 .button-con:hover,
 .button-con:focus {
   background-color: #404bbf;
-  background-color: #404bbf;
-  cursor: pointer;
 }
 
-
+button {
+  cursor: pointer;
+}
 
 .contact-con {
   font-size: 16px;
@@ -144,7 +132,6 @@ h2,
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  margin: 120px 0 0 0;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
