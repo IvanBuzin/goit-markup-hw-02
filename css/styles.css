@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -12,6 +18,9 @@ body {
 
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
@@ -26,6 +35,18 @@ h5,
 h6,
 p {
   font-family: "Roboto";
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.card-image {
+  object-fit: cover;
 }
 
 .effective {
@@ -59,8 +80,6 @@ h1,
   letter-spacing: 0.03em;
   color: rgba(46, 47, 66, 1);
 }
-
-
 
 .panel {
   font-size: 16px;
@@ -166,8 +185,6 @@ p,
   background-color: #2e2f42;
   font-family: "Raleway", sans-serif;
 }
-
-
 
 .ourteam-clas {
   background-color: #f4f4fd;
